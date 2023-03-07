@@ -4,3 +4,15 @@
 /B_Interface.class
 /C.class
 /Demo.class
+/DynamicTypes.class
+/Thread_RunnableInterface.class
+/Thread_extendThread.class
+/TwoThreadExample.class
+/TwoThreadExample$1.class
+/TwoThreadExample$2.class
+/AnonymouslyThreadExample.class
+/AnonymouslyThreadExample$1.class
+/TimeSlicingExample.class
+/PreemptiveSchedulingExample.class
+/A_Abstract.class
+/Demo$1.class

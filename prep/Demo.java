@@ -16,11 +16,19 @@ public class Demo {
 		
 		System.out.println(b.checkFinally());
         
-		        
-
+		A_Abstract aAbstract = new A_Abstract() {
+			
+			@Override
+			void hi() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		aAbstract.hello();
+		 
+		A_Interface aInterface = null;
 		
-		//IndiaplugAdapter indiaAdapter = new IndiaplugAdapter(indiaPlug);
-		
+		System.out.println('2' + '2');
 
 	}
 

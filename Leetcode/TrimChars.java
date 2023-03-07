@@ -13,8 +13,12 @@ public class TrimChars {
 			}
 			if(j-i+1 > k) {
 				// add char for k times
-				for(int m = 0; m < k; m++)
-				  res.append(str.charAt(i));
+//				for(int m = 0; m < k; m++)
+//				  res.append(str.charAt(i));
+				
+				String trimmedString = str.substring(i, i + k);
+				res.append(trimmedString);
+				
 				i = j-1;
 			}
 			else
@@ -25,7 +29,7 @@ public class TrimChars {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(trim("aaaabbc", 2));
+		System.out.println(trim("aaabc", 2));
 		System.out.println(trim("aaaabbbbcc", 1));
 	}
 
